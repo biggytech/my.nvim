@@ -1,5 +1,6 @@
 return {
   {
+    -- Zen Mode
     "folke/snacks.nvim",
     opts = {
       styles = {

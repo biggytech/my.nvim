@@ -18,10 +18,15 @@ require("lazy").setup({
   spec = {
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
+    -- LSP - language support
     { import = "lazyvim.plugins.extras.lang.typescript" },
     { import = "lazyvim.plugins.extras.lang.json" },
+    -- Cursor moving animation
     { import = "lazyvim.plugins.extras.ui.mini-animate" },
+    -- Prettier auto-formatting based on your project config
     { import = "lazyvim.plugins.extras.formatting.prettier" },
+    -- Testing
+    { import = "lazyvim.plugins.extras.test.core" },
     -- import/override with your plugins
     { import = "plugins" },
   },
