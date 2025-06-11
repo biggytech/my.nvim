@@ -45,6 +45,9 @@ return {
       opts.output_panel = {
         enabled = true,
       }
+      opts.running = {
+        concurrent = true,
+      }
 
       return opts
     end,
